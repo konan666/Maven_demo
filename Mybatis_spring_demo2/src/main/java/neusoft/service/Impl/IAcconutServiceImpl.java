@@ -7,6 +7,7 @@ import neusoft.domain.Account;
 import neusoft.service.IAccoutService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.sql.SQLException;
 import java.util.List;
@@ -15,7 +16,8 @@ import java.util.List;
  * @author ：konan
  * @date ：2020/9/5 11:39
  */
-@Component("acconutService")
+//@Component("acconutService")
+    @Service
 public class IAcconutServiceImpl implements IAccoutService {
     @Autowired
     private IAccountDao dao;

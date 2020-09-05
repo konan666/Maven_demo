@@ -14,11 +14,11 @@ public class test {
     @Test
     public void testfindAll() throws SQLException {
         ClassPathXmlApplicationContext ac = new ClassPathXmlApplicationContext("Bean.xml");
-        IAccoutService as= ac.getBean("acconutService",IAccoutService.class);
+        IAccoutService as= ac.getBean("IAcconutServiceImpl",IAccoutService.class);
         Account account=new Account();
 //        account.setName("13");
 //        account.setMoney((float) 123.0);
 //        account.setId(4);
-        as.delete(1);
+        as.delete(2);
     }
 }
