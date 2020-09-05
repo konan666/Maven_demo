@@ -5,7 +5,10 @@
 <!--指定命名空间-->
 <mapper namespace="com.neusoft.dao.IUserDao">
     <!--    配置查询所有用户的sql-->
-    <select id="findAll" resultMap="com.neusoft.domain.User">
+    <select id="findAll" resultType="com.neusoft.domain.User">
         select * from  user
+    </select>
+    <select id="findById" parameterType="int" resultType="com.neusoft.domain.User">
+        select * from  user where id = #{id}
     </select>
 </mapper>
