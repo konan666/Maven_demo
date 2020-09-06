@@ -4,14 +4,14 @@ import java.util.Date;
 
 /**
  * @author ：konan
- * @date ：2020/9/6 11:33
+ * @date ：2020/9/6 8:01
  */
 public class User {
     private Integer id;
     private String username;
     private Date birthday;
-    private String address;
     private String sex;
+    private String address;
 
     public Integer getId() {
         return id;
@@ -37,14 +37,6 @@ public class User {
         this.birthday = birthday;
     }
 
-    public String getAddress() {
-        return address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
-    }
-
     public String getSex() {
         return sex;
     }
@@ -53,14 +45,22 @@ public class User {
         this.sex = sex;
     }
 
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
     @Override
     public String toString() {
         return "User{" +
                 "id=" + id +
                 ", username='" + username + '\'' +
-                ", birthday=" + birthday +
-                ", address='" + address + '\'' +
+                ", brithday=" + birthday +
                 ", sex='" + sex + '\'' +
+                ", address='" + address + '\'' +
                 '}';
     }
 }

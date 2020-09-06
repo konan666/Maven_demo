@@ -2,16 +2,15 @@ package com.neusoft.dao;
 
 import com.neusoft.domain.Account;
 import com.neusoft.domain.AccountUser;
-import com.neusoft.domain.User;
 
 import java.util.List;
 
 /**
  * @author ：konan
- * @date ：2020/9/5 8:55
+ * @date ：2020/9/6 11:38
  */
-public interface IAccountDao {
+public interface AccountDao {
     List<Account> findAll();
-    List<AccountUser> findAllUser();
-
+    List<AccountUser> findUser();
+    Account findById(Integer id);
 }

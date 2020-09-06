@@ -6,19 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Mybatis" />
-        <module name="Mybatis_spring_demo2" />
-        <module name="Mybatis_demo2" />
-        <module name="Mybatis_demo33" />
         <module name="Mybatis_spring_demo1" />
+        <module name="Mybatis_spring_demo2" />
+        <module name="Mybatis" />
+        <module name="Mybatis_demo2" />
+        <module name="Mybatis_spring_test" />
+        <module name="Mybatis_demo33" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="Mybatis" target="1.5" />
       <module name="Mybatis_demo2" target="1.5" />
       <module name="Mybatis_demo33" target="1.5" />
-      <module name="Mybatis_spring_demo1" target="1.5" />
-      <module name="Mybatis_spring_demo2" target="8" />
+      <module name="Mybatis_spring_demo1" target="6" />
+      <module name="Mybatis_spring_demo2" target="6" />
+      <module name="Mybatis_spring_test" target="6" />
     </bytecodeTargetLevel>
   </component>
 </project>

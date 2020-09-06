@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/Mybatis_demo33/Mybatis_demo33.iml" filepath="$PROJECT_DIR$/Mybatis_demo33/Mybatis_demo33.iml" />
       <module fileurl="file://$PROJECT_DIR$/Mybatis_spring_demo1/Mybatis_spring_demo1.iml" filepath="$PROJECT_DIR$/Mybatis_spring_demo1/Mybatis_spring_demo1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Mybatis_spring_demo2/Mybatis_spring_demo2.iml" filepath="$PROJECT_DIR$/Mybatis_spring_demo2/Mybatis_spring_demo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mybatis_spring_test/Mybatis_spring_test.iml" filepath="$PROJECT_DIR$/Mybatis_spring_test/Mybatis_spring_test.iml" />
     </modules>
   </component>
 </project>

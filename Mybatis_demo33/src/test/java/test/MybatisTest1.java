@@ -1,22 +1,5 @@
 package test;
 
-import com.neusoft.dao.IUserDao;
-import com.neusoft.domain.User;
-import org.apache.ibatis.annotations.Select;
-import org.apache.ibatis.io.Resources;
-import org.apache.ibatis.session.SqlSession;
-import org.apache.ibatis.session.SqlSessionFactory;
-import org.apache.ibatis.session.SqlSessionFactoryBuilder;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
-
-import javax.jws.soap.SOAPBinding;
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.Date;
-import java.util.List;
-
 /**
  * @author Eric Lee
  * @date 2020/9/3 10:13

@@ -2,11 +2,13 @@ package com.neusoft.domain;
 
 /**
  * @author ：konan
- * @date ：2020/9/5 9:21
+ * @date ：2020/9/6 11:33
  */
 public class AccountUser extends Account {
     private String username;
     private String address;
+
+
 
     public String getUsername() {
         return username;
