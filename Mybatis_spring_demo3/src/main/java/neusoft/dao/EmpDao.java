@@ -1,17 +1,15 @@
-package neusoft.service;
+package neusoft.dao;
 
 import neusoft.domain.Emp;
-import org.springframework.beans.factory.annotation.Autowired;
 
 import java.sql.SQLException;
 import java.util.List;
 
 /**
  * @author ：konan
- * @date ：2020/9/5 16:08
+ * @date ：2020/9/5 15:59
  */
-public interface EmpService {
-
+public interface EmpDao {
     List<Emp> findAll() throws SQLException;
     Emp findAllById(Integer id) throws SQLException;
     void save(Emp emp) throws SQLException;

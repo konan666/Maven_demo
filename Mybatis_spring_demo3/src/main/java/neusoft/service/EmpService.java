@@ -1,7 +1,6 @@
 package neusoft.service;
 
 import neusoft.domain.Emp;
-import org.springframework.beans.factory.annotation.Autowired;
 
 import java.sql.SQLException;
 import java.util.List;
@@ -11,7 +10,6 @@ import java.util.List;
  * @date ：2020/9/5 16:08
  */
 public interface EmpService {
-
     List<Emp> findAll() throws SQLException;
     Emp findAllById(Integer id) throws SQLException;
     void save(Emp emp) throws SQLException;
